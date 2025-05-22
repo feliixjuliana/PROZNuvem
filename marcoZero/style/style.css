@@ -1,0 +1,22 @@
+
+.Marco-Zero{
+    height: 100%;
+    margin: 0;
+}
+
+
+.informacoes{
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1
+}
+
+#resumo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
