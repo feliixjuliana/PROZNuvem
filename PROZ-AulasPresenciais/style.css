@@ -1,0 +1,32 @@
+body {
+    font-family: monospace;
+    background-color: pink;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+h1 {
+    color: palevioletred;
+}
+
+h1:hover{
+    color: rgb(247, 147, 163);
+}
+
+p{
+    font-size: 15px;
+}
+
+a{
+    color: palevioletred;
+    text-decoration: double;
+}
+
+a:hover{
+    color: rgb(247, 147, 163); 
+}
