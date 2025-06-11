@@ -17,5 +17,5 @@ function verificandoNumero() {
         mensagem = "Número negativo"
     }
 
-document.getElementById("resultado").innerTEXT = mensagem
+document.getElementById("resultado").innerHTML = mensagem
 }

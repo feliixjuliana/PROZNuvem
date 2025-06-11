@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="site para curso proz" content="curso para mulheres em Recife"> <!--O content serve para colocar as palavras chaves de um site, assim os navegadores vai encontrar melhor sua página-->
+    <meta name="site para curso proz" content="curso para mulheres em Recife">
+    <!--O content serve para colocar as palavras chaves de um site, assim os navegadores vai encontrar melhor sua página-->
     <title>Minha Primeira Página</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <h1>Bem-vinda ao meu site!</h1> 
-        
+        <h1>Bem-vinda ao meu site!</h1>
+
     </header>
     <main>
         <p>Entre em contato através do: </p>
-        <a href="https://www.linkedin.com/in/feliixjuliana/">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/feliixjuliana/">
+            <button onclick="mostrarMensagem()"> LinkedIn </button>
+        </a>
     </main>
-</body>
-</html>
+    <div class="caixa">
+        <h2> Bem-vinda</h2>
+        <p>Esta é uma caixa de conteúdo.</p>
+    </div>
+    <div>
+        <h2>Digite um número:</h2>
+        <input type="number" id="numero">
+        <button onclick="verificandoNumero()" > Vamos verificar </button>
+    </div>
 
+    <div id="resultado" style="color: black"> </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
