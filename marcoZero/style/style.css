@@ -1,7 +1,7 @@
 
 .Marco-Zero{
     margin: 0;
-    background-color: rgb(168, 199, 168);
+    background-color: rgb(181, 228, 181);
 }
 
 
@@ -47,10 +47,5 @@
     justify-content: center;
     flex-direction: column;
 
-}
-
-#rodape{
-    background-color: green;
-    padding: 5px;
 }
 
