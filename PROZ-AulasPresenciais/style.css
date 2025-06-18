@@ -30,3 +30,9 @@ a{
 a:hover{
     color: rgb(247, 147, 163); 
 }
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border-color: pink;
+}
